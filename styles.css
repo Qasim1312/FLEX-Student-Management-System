@@ -1,0 +1,158 @@
+﻿body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-container {
+    display: inline-block;
+    background-color: #333;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+.user-greeting {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.user-info {
+    width: 50%;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.navigation-panel {
+    width: 40%; /* Increase the width of the navigation panel */
+    padding: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.nav button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 200px);
+    width: 50%;
+    margin: 0 auto;
+}
+
+.button-container button {
+    flex-grow: 1;
+    height: 60px;
+    margin: 0 20px;
+    font-size: 1.2rem;
+}
+
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12px;
+    width: 10%;
+}
+
+    .back-button button {
+        background-color: #333;
+        color: white;
+        flex-grow: 1;
+        height: 60px;
+        margin: 0 20px;
+        font-size: 1rem;
+    }
+.add-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.section-action-container,
+.section-list-container {
+    width: 50%;
+    padding: 50px;
+    background-color: #333;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-left: 250px;
+}
+
+.section-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.part_1 {
+    width: 50%;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
